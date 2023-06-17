@@ -1,0 +1,55 @@
+.container {
+    background-color: #111;
+    padding: 26px;
+    border-radius: 20px;
+    box-shadow: 0 80px 50px -30px rgb(42, 125, 153, 0.2);
+}
+
+input {
+    display: inline-block;
+    width: 330px;
+    padding: 25px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+button {
+    display: inline-block;
+    outline: none;
+    border: none;
+    width: 60px;
+    height: 60px;   
+    border-radius: 10px;
+    background-color: #212d36;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #17f7ff;
+    cursor: pointer;
+}
+
+.equal {
+    width: 140px;
+    background-color: #0073ff;
+    color: #fff;
+    font-weight: 700;
+}
+
+.other {
+    background-color: #606060;
+    color: #eee;
+}
+
+.main {
+    background-color: #145aaf;
+    color: #eee;
+}
